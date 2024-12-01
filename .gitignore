@@ -1,0 +1,41 @@
+# core
+.DS_Store
+.env
+.env*.local
+output
+dist
+target
+.idea
+node_modules
+package-lock.json
+pnpm-lock.yaml
+.vercel
+private
+private.*
+private-*
+past.*
+past-*
+scripts/run.ts
+
+# generated content
+.contentlayer
+.content-collections
+.source
+
+# test & build
+/coverage
+/.next/
+/out/
+/build
+*.tsbuildinfo
+
+# misc
+*.pem
+/.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# others
+next-env.d.ts
